@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c433fd2-d4f3-45f1-9b13-5493d75296c1" name="Default Changelist" comment="" />
+    <list default="true" id="8c433fd2-d4f3-45f1-9b13-5493d75296c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dealership/Dealership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dealership/People/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dealership/People/Dealer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dealership/Vehicles/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dealership/Vehicles/HybridCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DealerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DealershipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarParts/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealership/CarParts/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarParts/Tyre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealership/CarParts/Tyre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/PetrolCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealership/Vehicles/PetrolCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dealership/Vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EngineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetrolCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetrolCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TyreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TyreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CarParts/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CarParts/Tyre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Vehicles/PetrolCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Vehicles/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EngineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EngineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PetrolCarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PetrolCarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TyreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TyreTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +37,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Vehicles/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="69" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="69" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#443#444#0" expanded="true" />
@@ -40,10 +59,106 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/PetrolCar.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Dealership.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DealershipTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/People/Dealer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DealerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/People/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Vehicles/PetrolCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
@@ -53,54 +168,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PetrolCarTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Vehicles/HybridCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CarParts/Tyre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TyreTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +188,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -131,6 +208,18 @@
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/PetrolCar.java" />
         <option value="$PROJECT_DIR$/src/test/java/PetrolCarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Vehicles/ElectricCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HybridCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dealership/Vehicles/HybridCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dealership/HybridCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dealership/Vehicles/PetrolCar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DealershipTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Dealership/People/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dealership/People/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dealership/People/Dealer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dealership/Dealership.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DealerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
       </list>
     </option>
   </component>
@@ -189,6 +278,23 @@
               <item name="CCCars" type="b2602c69:ProjectViewProjectNode" />
               <item name="CCCars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealership" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCCars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCCars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealership" type="462c0819:PsiDirectoryNode" />
+              <item name="People" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCCars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCCars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -213,8 +319,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560949198021" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560952975792" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Dealership.People" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,7 +344,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PetrolCarTest">
+  <component name="RunManager" selected="JUnit.All in CCCars">
+    <configuration name="All in CCCars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CCCars" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CCCars" />
       <option name="PACKAGE_NAME" value="" />
@@ -258,6 +382,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in CCCars" />
         <item itemvalue="JUnit.PetrolCarTest" />
         <item itemvalue="JUnit.EngineTest" />
         <item itemvalue="JUnit.TyreTest" />
@@ -278,14 +403,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TyreTest - 2019.06.19 at 13h 34m 34s.xml">
-      <configuration name="TyreTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EngineTest - 2019.06.19 at 13h 40m 50s.xml">
       <configuration name="EngineTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PetrolCarTest - 2019.06.19 at 13h 58m 20s.xml">
       <configuration name="PetrolCarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 14h 26m 07s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 14h 27m 27s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 14h 29m 58s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 14h 31m 38s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 14h 49m 37s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 14h 58m 12s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 15h 02m 39s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CCCars - 2019.06.19 at 15h 02m 54s.xml">
+      <configuration name="All in CCCars" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -331,7 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CarParts/Engine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/CarParts/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -358,26 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="69" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TyreTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -394,7 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CarParts/Tyre.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/CarParts/Tyre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -407,21 +533,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/PetrolCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PetrolCarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="735">
           <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -433,6 +547,153 @@
             <element signature="e#721#722#0" expanded="true" />
             <element signature="e#791#792#0" expanded="true" />
             <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Vehicles/ElectricCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Vehicles/HybridCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Vehicles/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Vehicles/PetrolCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DealershipTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Dealership/People/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/Dealership.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/People/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DealerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealership/People/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
           </folding>
         </state>
       </provider>

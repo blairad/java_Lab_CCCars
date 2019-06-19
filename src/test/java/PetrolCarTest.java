@@ -1,6 +1,6 @@
-import CarParts.Engine;
-import CarParts.Tyre;
-import Vehicles.PetrolCar;
+import Dealership.CarParts.Engine;
+import Dealership.CarParts.Tyre;
+import Dealership.Vehicles.PetrolCar;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,7 +1,7 @@
-package Vehicles;
+package Dealership.Vehicles;
 
-import CarParts.Engine;
-import CarParts.Tyre;
+import Dealership.CarParts.Engine;
+import Dealership.CarParts.Tyre;
 
 public abstract class Vehicle {
 
